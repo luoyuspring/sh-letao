@@ -1,0 +1,13 @@
+.body-bg {
+  background-color: #222d32;
+}
+.panel .panel-heading {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  padding: 0;
+}
+.mt-150 {
+  margin-top: 150px;
+}
