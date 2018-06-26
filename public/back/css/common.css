@@ -91,7 +91,6 @@ ul {
   width: 100%;
   height: 800px;
   padding-left: 180px;
-  background-color: pink;
   transition: all 1s;
 }
 .lt-main.menuHide {
@@ -128,7 +127,14 @@ ul {
   width: 48%;
   height: 500px;
 }
+.lt-main .table thead th {
+  text-align: center;
+}
+.lt-main .table td {
+  text-align: center;
+  vertical-align: middle;
+}
 /* 退出模态框 */
-#logoutModal .modal-body p {
+.modal .modal-body p {
   color: #a94442;
 }
