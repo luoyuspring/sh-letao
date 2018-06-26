@@ -127,6 +127,9 @@ ul {
   width: 48%;
   height: 500px;
 }
+.lt-content .btn-add {
+  margin-bottom: 20px;
+}
 .lt-main .table thead th {
   text-align: center;
 }
