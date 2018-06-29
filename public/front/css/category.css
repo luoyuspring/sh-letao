@@ -1,0 +1,38 @@
+/* 主题左侧导航区域 */
+.lt_category_left {
+  width: 90px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.lt-main .lt_category_left li {
+  width: 90px;
+  height: 50px;
+}
+.lt-main .lt_category_left li a {
+  width: 90px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  color: #666666;
+  text-align: center;
+  background: #e3e4e5;
+}
+.lt-main .lt_category_left li a.current {
+  background: #fff;
+}
+.lt_category_right {
+  height: 100%;
+  margin-left: 90px;
+  position: relative;
+}
+.lt_category_right li {
+  width: 33.33%;
+  padding: 5px;
+  float: left;
+  text-align: center;
+}
+.lt_category_right li a {
+  display: block;
+}
