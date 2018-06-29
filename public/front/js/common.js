@@ -16,3 +16,13 @@ $(function () {
   });
 
 });
+
+// 3.解析地址栏字符串方法封装
+function getSearch(name) {
+  var arr = decodeURI(location.search).slice(1).split('&');
+  var obj = {};
+  arr.forEach(function (v, i) {
+    obj[v.split('=')[0]] = v.split('=')[1];
+  })
+  return obj[name];
+}
