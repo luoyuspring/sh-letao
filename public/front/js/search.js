@@ -45,6 +45,12 @@ $(function () {
 
   // 功能四: 搜索功能
   $('.btn-search').on('click', function () {
+    // 当输入框为空时显示提示信息并结束函数
+    if (!$('.search-input').val()) {
+      mui.toast('请输入搜索内容!');
+      return;
+    }
+
     // 1.将输入框的值存储到本地localStorage中
     var arr = getHistory();
     // 1.1 如果输入的数据在数组中已存在,则删除数组中该数据

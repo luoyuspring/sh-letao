@@ -93,3 +93,60 @@ html,body {
   margin: 0;
   color: #fff;
 }
+
+/* 公共搜索框样式 */
+.lt-main .search {
+  width: 100%;
+  height: 54px;
+  padding: 10px;
+  position: relative;
+}
+.lt-main .search input {
+  width: 100%;
+  height: 34px;
+  font-size: 12px;
+  border: 1px solid #007aff;
+  border-radius: 5px;
+  margin: 0;
+}
+.lt-main .search button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+/* 公共商品展示样式 */
+.lt_product {
+  padding: 10px;
+  text-align: center;
+}
+.lt_product_item {
+  width: 48%;
+  float: left;
+  padding: 10px;
+  margin-right: 4%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.lt_product_item:nth-child(2n) {
+  margin-right: 0;
+}
+.lt_product_item a {
+  display: block;
+}
+.lt_product_item a img {
+  width: 100%;
+  display: block;
+}
+.lt_product_item a .price {
+  color: #ff4242;
+}
+.lt_product_item a .oldprice {
+  text-decoration: line-through;
+}
+.lt_product_item a .mui-ellipsis-2 {
+  height: 45px;
+}
