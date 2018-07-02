@@ -71,4 +71,9 @@ $(function () {
     location.href = "searchList.html?key=" + $('.search-input').val();
   })
 
+  // 功能五: 点击历史记录跳转搜索详情页
+  $('.history').on('click', 'a', function () {
+    location.href = "searchList.html?key=" + $(this).text();
+  })
+
 });

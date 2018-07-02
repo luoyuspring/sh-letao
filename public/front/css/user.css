@@ -1,0 +1,10 @@
+.lt-main .btnWrapper {
+  margin: 10px;
+}
+
+.lt-main button {
+  width: 100%;
+  display: block;
+  font-size: 18px;
+  padding: 5px;
+}

@@ -33,7 +33,7 @@
           <!-- 头部检索 -->
           <div class="sort">
             <a href="javascript:;">上架时间 <i class="fa fa-angle-down"></i></a>
-            <a data-name="price" href="javascript:;" class="current">价格 <i class="fa fa-angle-down"></i></a>
+            <a data-name="price" href="javascript:;" >价格 <i class="fa fa-angle-down"></i></a>
             <a data-name="num" href="javascript:;">库存 <i class="fa fa-angle-down"></i></a>
             <a href="javascript:;">折扣 <i class="fa fa-angle-down"></i></a>
           </div>
@@ -91,7 +91,7 @@
     <ul class="mui-clearfix">
       {{ each data v i }}
         <li class="lt_product_item">
-          <a href="#">
+          <a data-id="{{ v.id }}" href="#">
             <img src="{{ v.pic[0].picAddr }}" alt="">
             <p class="mui-ellipsis-2">{{ v.proName }}</p>
             <p>
